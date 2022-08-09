@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+
+@media screen and (max-width: 768px) {
+   .logo {
+    visibility: hidden;
+   }
+    
+}
+    
+
+
+
+html{
+    background-color: white;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    text-align: center;
+    margin-top: 1rem;
+}
+p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#btndark{
+    background-color: #1a1a1a;
+    float : right;
+    color: white;
+    border: none;
+   
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+#btndark:hover{
+   
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+#btnlyth{
+background-color: white;
+float : left;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+
+
+}
+#btnlyth:hover{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  
+}
+
+#dica{
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    float : left;
+    
+   
+}
+
+#palavra{
+    width: 100%;
+    height: 30%;
+    padding: 12px 0px;
+    font-family: 'Titillium Web', sans-serif;
+    
+    background-color: #f2f2f2;
+    border: 1px solid #888(189, 38, 38);
+    border-radius: 4px;
+}
+#palavra:active::before{
+    cursor: pointer;
+    color: #f2f2f2;
+    background-color: #888(189, 38, 38);
+}
+#button{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    background-color:gray;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    box-shadow: -3px 4px 0 #888,-7px 7px 0 #333;
+}
+
+#button:active{
+    box-shadow: inset -4px 4px 0 #222,inset -7px 7px 0 #333;
+    background-color: #888;
+    color: white;
+    
+}
+#recome{
+   visibility: hidden;
+
+    width: 90%;
+    height: auto;
+    padding: 10px 0px;
+    background-color:gray;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: -3px 4px 0 #888,-7px 7px 0 #333;
+}
+
+
+.comojogar{
+    font-family: 'Titillium Web', sans-serif;
+    
+    background-color: antiquewhite;
+
+}
+.logo{
+    width: 10%;
+    height: auto;
+    
+}
