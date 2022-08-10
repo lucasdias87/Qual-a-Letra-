@@ -118,10 +118,15 @@ function capturando(){
    
  
 palavra=document.getElementById("palavra").value;
+//verifica se a letra é válida
+if(palavra=="" ||palavra=="A"||palavra=="B"|| palavra=="C"||palavra=="D"||palavra=="E"||palavra=="F"||palavra=="G"||palavra=="H"||palavra=="I"||palavra=="J"||palavra=="K"||palavra=="L"||palavra=="M"||palavra=="N"||palavra=="O"||palavra=="P"||palavra=="Q"||palavra=="R"||palavra=="S"||palavra=="T"||palavra=="U"||palavra=="V"||palavra=="W"||palavra=="X"||palavra=="Y"||palavra=="Z" || palavra=="0"|| palavra=="1" ||palavra=="2"||palavra=="3"||palavra=="4"||palavra=="5"||palavra=="6"||palavra=="7"||palavra=="8"||palavra=="9"){    
+    alert("Preencha o campo corretamente");
+    palavra="";
+    document.getElementById("resultadop2").innerHTML="letra imvalida";
+}
+else{
 
-
-
-
+}
 
 
 
